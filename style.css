@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=DM+Sans:wght@400;700&family=Montserrat:wght@800&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(231, 13%, 11%);
+  background-color: hsl(48, 85%, 65%);
+}
+
+/*========= header ===========*/
+
+
+header {
+  display: flex;
+  width: 100%;
+  height: 92px;
+  background-color: #000000 ;
+  border-radius: 0px 0px 20px 20px;
+  justify-content: space-between;
+  /*margin-bottom: 180px;*/
+}
+
+header #logo {
+  display: flex;
+}
+
+header svg {
+  margin-top: 12px;
+  margin-left: 32px;
+}
+
+header h1 {
+  font-family: 'Caveat';
+  font-style: normal;
+  padding-left: 35px;
+  align-self: center;
+  font-weight: 700;
+  font-size: 50px;
+  justify-content: center;
+}
+
+header h1 span.cor1 {
+  letter-spacing: -16px;
+  color: #A259FF;
+}
+
+header h1 span.cor2 {
+  letter-spacing: -11px;
+  color: #0ACF83;
+}
+
+header h1 span.cor3 {
+  letter-spacing: -11px;
+  color: #F24E1E;
+}
+
+header h1 span.cor4 {
+  letter-spacing: -11px;
+  color: #1ABCFE;
+}
+
+header h1 span.cor5 {
+  letter-spacing: -11px;
+  color: #FF7262;
+}
+
+header h1 span.cor6 {
+  letter-spacing: -11px;
+  color: hsl(245, 110%, 70%);
+}
+
+header h1 span {
+  color: #FFFFFF;
+}
+
+header nav#menu {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 92px;
+  padding: 0 30px;
+}
+
+header nav#menu ul {
+  list-style: none;
+  display: flex;
+  gap: 52px;
+}
+
+header nav#menu ul li a {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*========= about ===========*/
+section#about {
+  display: flex;
+  margin-left: 32px;
+  gap: 250px;
+  margin-top: 75px;
+  align-items: center;
+}
+
+section#about h2 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+section#about h3 {
+  font-size: 25px;
+  color: #474A57;
+  margin-top: 12px;
+  margin-bottom: 55px;
+}
+
+section#about #work-media {
+  display: flex;
+  gap: 19px;
+}
+
+section#about a {
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 34px;
+  color: white;
+  background: #000000;
+  gap: 10px;
+  box-shadow: 4px 4px 0px #EB7711;
+  border-radius: 10px;
+}
+
+section#about .img-sm {
+  
+  display: flex;
+  align-items: center;
+
+}
+
+section#about img {
+  display: flex;
+  padding: 62px ;
+  align-items: center;
+}
+
+section#about #social-media svg {
+  display: block;
+}
+
+
+
