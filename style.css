@@ -104,10 +104,11 @@ header nav#menu ul li a {
 /*========= about ===========*/
 section#about {
   display: flex;
-  margin-left: 32px;
   gap: 250px;
-  margin-top: 75px;
   align-items: center;
+  max-width: 1323px;
+  width: 100%;
+  margin: 75px auto 0;
 }
 
 section#about h2 {
@@ -127,7 +128,7 @@ section#about #work-media {
   gap: 19px;
 }
 
-section#about a {
+section#about #work-media a {
   font-weight: 700;
   font-size: 25px;
   text-decoration: none;
@@ -154,7 +155,9 @@ section#about img {
 
 section#about #social-media svg {
   display: block;
+  margin-bottom: 10px;
 }
+
 
 
 
