@@ -164,13 +164,10 @@ section#about img {
 section#about #social-media svg {
   display: block;
   margin-bottom: 10px;
-  border: 3px solid transparent;
 }
 
 section#about #social-media svg:hover  {
-  transition: all;
-  border: 1px solid #1ABCFE;
-  border-radius: 50%;
+  transition: all 0.7s;
   transform: scale(1.5);
 }
 
